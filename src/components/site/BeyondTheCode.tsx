@@ -33,7 +33,7 @@ export function BeyondTheCode() {
               <Reveal
                 key={p.caption}
                 delay={i * 90}
-                className={i % 2 === 1 ? "sm:mt-10" : undefined}
+                className={i % 2 === 1 ? "sm:mt-10" : ""}
               >
                 <figure className="group">
                   <div className="overflow-hidden rounded-md border border-border bg-background">
